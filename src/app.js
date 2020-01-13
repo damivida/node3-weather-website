@@ -35,6 +35,7 @@ app.get('', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About',
+        message: 'This site uses data from mapbox.com and darksky.net.',
         name: 'Vidix'
     })
 });
